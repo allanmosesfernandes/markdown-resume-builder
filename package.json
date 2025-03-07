@@ -1,0 +1,19 @@
+{
+  "name": "markdown-resume-builder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "convert": "node convert.js",
+    "pdf": "node generate-pdf.js",
+    "build": "npm run convert && npm run pdf"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node-pandoc": "^0.3.0",
+    "puppeteer": "^24.4.0"
+  }
+}

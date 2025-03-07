@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --theme-color: #1155CC;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h4 {
+    color: var(--theme-color);
+}
+
+.title {
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    p {
+        margin: 0;
+    }
+    a {
+        color: #000000;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .summary {
+        text-align: left;
+    }
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+#experience,
+#projects {
+    border-bottom: 1px solid #000;
+}
+
+dl {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    font-weight: 400;
+    font-size: 14px !important;
+}
+
+/* Code */
+code,
+pre {
+    font-family: "SF Mono", Menlo, Monaco, Consolas, monospace;
+    font-size: 0.85rem;
+    background: #f8fafc;
+    border-radius: 0.25rem;
+    color: #1a202c;
+    border: 1px solid #e2e8f0;
+}
+
+code {
+    padding: 0.2em 0.4em;
+    margin: 0.2em 0.2em;
+    font-weight: 500;
+    background: #edf2f7;
+    display: inline-block;
+}
+
+pre {
+    padding: 0.5rem;
+    border: 1px solid #e2e8f0;
+}
