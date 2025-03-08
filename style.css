@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 :root {
     --theme-color: #1155CC;
 }
@@ -8,8 +12,16 @@ body {
     font-family: "Inter", sans-serif;
     max-width: 800px;
     margin: auto;
-    padding: 20px;
-    line-height: 1.6;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+/* Ensure entire page fits in one page */
+@page {
+    size: A4;
+    /* Keep it A4-sized */
+    margin: 1cm;
+    /* Reduce margins */
 }
 
 h1,
@@ -33,34 +45,47 @@ h4 {
     p {
         margin: 0;
     }
+
     a {
-        color: #000000;
+        color: var(--theme-color);
         font-weight: 500;
         text-align: center;
     }
 
     .summary {
         text-align: left;
+        font-size: 14px !important;
     }
 }
 
-div {
-    margin-bottom: 20px;
-}
-
-#experience,
-#projects {
+h3 {
     border-bottom: 1px solid #000;
+    padding: 0;
 }
 
 dl {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
+
+    dd:first-of-type {
+        text-align: center;
+        margin: auto;
+    }
+
+    dd:nth-of-type(2) {
+        margin-left: auto;
+    }
 }
 
 li {
     font-weight: 400;
     font-size: 14px !important;
+
+    a {
+        color: #000;
+        font-weight: 600;
+    }
 }
 
 /* Code */
@@ -85,4 +110,23 @@ code {
 pre {
     padding: 0.5rem;
     border: 1px solid #e2e8f0;
+}
+
+/* Education */
+.institute {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.university {
+    margin: 0;
 }
