@@ -8,8 +8,10 @@ title: Allan Fernandes
 <span class="summary">Versatile front-end developer focused on creating accessible, user-centric experiences, with hands-on exposure to RESTful API development and serverless architecture using AWS Lambda.
 </span>
 </div>
+<!---Contact Links-->
 
 ### Experience
+
 **Web Developer**
 : **Responsible Life**
 : **Sep 2023 — Present**
@@ -41,15 +43,17 @@ title: Allan Fernandes
 - Converted Figma design prototypes into responsive, reusable code optimized for maximum performance.
 
 ### Projects
-- [Royal London Broker Portal](https://www.youtube.com/watch?v=Dwb49erRFZc) - Developed a scalable portal for equity release advisors that streamlines workflow by enabling case creation, quote generation, Key Facts Illustrations (KFIs) production, and secure document uploads.
-- [Royal London Equity Release](https://equityrelease.royallondon.com/) - Developed the Royal London equity release website, featuring an integrated cost estimator that allows customers to see how making repayments can lower the interest on their mortgage.
+
+- [allanfernandes.dev](https://allanfernandes.dev) - Portfolio website built using Next.js.
 - [Daily Stoic Reminders](https://dailystoicreminders.uk/) - React web app that provides daily stoic wisdom. Featured on product hunt with 88+ upvotes.
 
 ### Skills
+
 <div class="skills">
 `React` `Redux` `Node.js` `Javascript (ES6+)` `Typescript` `Playwright` `Cypress` `Jest` `Next.js` `TailwindCSS` `SCSS` `React Query` `Accessibility (WCAG)` `Git` `HTML5/CSS3` `Vite` `CI/CD`
 </div>
 
 ### Education
+
 <div class="institute">MSc Computer Science <p>Sep 2021 - Sep 2022</p></div>
 <p class="university">Nottingham Trent University</p>
